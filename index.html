@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>techCom</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body> 
+	<section>
+		<h1 class="head">Techcom</h1>
+		<div class="container">
+			<div class="form sign-in-form ">
+				<div class="wrapper">
+					<form class="needs-validation" novalidate action="answering.html">
+						<h1>Sign in</h1>
+						<div class="form-group">
+							<input type="email" placeholder="Email address" class="form-control" id="validationCustom01" required>
+							<div class="invalid-feedback">
+								please enter valid mail address	
+    						  </div>
+    						  <div class="valid-feedback">
+    						  	looks good	
+    						  </div>
+						</div>
+						<div class="form-group">
+						<input type="password" placeholder="password" class="form-control" id="validationCustom02" required>
+						<div class="invalid-feedback">
+								please enter valid Password	
+    						  </div>
+    						  <div class="valid-feedback">
+    						  	looks good	
+    						  </div>
+						</div>
+						<button type="submit"  class="btn btn-primary">Sign in</button>
+						
+					</form>
+				</div>
+			</div>
+			<div class="form sign-up-form active">
+				<div class="wrapper">
+					<form action="#" class="needs-validation" novalidate>
+						<h1>Sign up</h1>
+						<div class="form-group">
+							<input type="text" placeholder="Username" class="form-control" id="validationCustom03" required>
+							<div class="invalid-feedback">
+								please enter valid Username
+    						  </div>
+    						  <div class="valid-feedback">
+    						  	looks good	
+    						  </div>
+						
+							</div>
+						<div class="form-group">
+							<input type="email" placeholder="email address" class="form-control" id="validationCustom04" required>
+							<div class="invalid-feedback">
+								please enter valid mail address	
+    						  </div>
+    						  <div class="valid-feedback">
+    						  	looks good	
+    						  </div>
+						</div>
+							<div class="form-group">
+							<input type="password" placeholder="password" class="form-control" id="validationCustom05" required>
+							<div class="invalid-feedback">
+								please enter valid Password	
+    						  </div>
+    						  <div class="valid-feedback">
+    						  	looks good	
+    						  </div>
+						
+							</div>
+						<div class="form-group">
+						<input type="password" placeholder="confirm password" class="form-control" id="validationCustom06" required>
+							<div class="invalid-feedback">
+								please confirm password
+    						  </div>
+    						  <div class="valid-feedback">
+    						  	password confirmed
+    						  </div>
+						
+						</div>
+						<button type="submit" class="btn btn-outline-danger ">Sign up</button>
+					</form>
+				</div>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-left">
+						<h1>create account</h1>
+						<p>or</p>
+						<button id="signInButton" class="rounded-pill">login</button>
+					</div>
+					<div class="overlay-right">
+						<h1>please log in</h1>
+						<p>or</p>
+						<button id="signUpButton" class="rounded-pill">create account</button>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		</section>
+
+<script src="js/jquery.min.js"></script>  
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/home.js"></script>
+<script>
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+</body>
+</html>
