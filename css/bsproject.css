@@ -1,0 +1,158 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.menu{
+	background-color:#E0F2F7;
+	box-sizing: border-box;
+	height: 45px;
+	/*padding-top: 4px;*/
+	/*padding-left: 4%;*/
+}
+.main{
+	/*padding-left: 2%;*/
+	font-size: 20px;
+}
+#search{
+	margin-left: 37%;
+	/*margin-top: -2%;*/
+	/*padding-left: 1%;*/
+	width: 25%;
+	/*padding-right: 1%;*/
+	border: 1px solid black;
+	border-radius: 30px;
+	height: 32px;
+}
+#search:focus{
+	outline: 0px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 0px 0px;
+}
+.divs3{
+	display: flex;
+	flex-wrap: wrap;
+}
+.left{
+	width: 25%;
+	height: 50vh;
+}
+.middle{
+	width: 50%;
+	height: 180vh;
+}
+.nav{
+	height: 65px;
+}
+.news{
+	font-style: italic;
+    padding-left:20%;
+}
+.img1{
+	height: 30px;
+	width: 50px;
+}
+.btn2{
+	margin-left: 65%;
+	margin-top: -6%;*/
+}
+.gbtn{
+	padding: 2px 3px;
+}
+.q{
+	padding-left: 10%;
+	margin-top: -10%;
+	color: #01A9;
+}
+.img2{
+	width: 70%;
+	padding-left: 2%;
+}
+.ud{
+	margin-left: 88%;
+	margin-top: -12%;
+	height: 100px;
+}
+.uid{
+	font-size: 14px;
+	margin-left: -20%;
+}
+.q1{
+	margin-left: 24%;
+}
+.q2{
+	padding-left: 2%;
+	color: #2E64FE;
+}
+.ps{
+	margin-left: -40%;
+}
+.descrip{
+	margin-left: 12%;
+	margin-top: -7%;
+	width: 75%;
+	height: 110px;
+	color: black;
+	font-style: Sans-serif;
+	font-size: 16px;
+}
+.ans{
+	margin-left: 3%;
+}
+#com{
+	margin-right: 15%;
+	/*margin-top: -2%;*/
+	padding-left: 2%;
+	width: 45%;
+	padding-right: 1%;
+	border: 1px solid black;
+	border-radius: 30px;
+	height: 32px;
+}
+#com:focus{
+	outline: 0px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 0px 0px;
+}
+.btn1{
+	margin-left: -5%;
+}
+.ans2{
+	color: blue;
+}
+.ans11{
+	margin-left: 6%;
+}
+.ans1{
+	padding-left: 2%;
+}
+.ans1:focus{
+	font-style: italic;
+}
+.btn3{
+	margin-left: 1%;
+}
+.x{
+	margin-top: -28%;
+	margin-left: 79%;
+}
+.btn4{
+	margin-left: 1%;
+	height: 35px;
+}
+.img3{
+	margin-left: 3%;
+}
+.btn5{
+	margin-left: 3%;
+}
+.img4{
+	margin-top: 2%;
+}
+.ans-1{
+	margin-top: -10%;
+	margin-left: 8%;
+	width: 70%;
+}
+.right{
+	width: 25%;
+}
